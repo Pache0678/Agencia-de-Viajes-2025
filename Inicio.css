@@ -1,0 +1,80 @@
+    body {
+      background: linear-gradient(to right, #eef2f3, #d9e4ec);
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .Discografia {
+      text-align: center;
+      background-color: black;
+      color: red;
+    }
+
+    .Principal {
+      text-align: center;
+    }
+
+    p {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .Secundaria2 {
+      background-color: black;
+      color: red;
+    }
+
+    /* ======== LOGOS ======== */
+    .Logos {
+      width: 200px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .Logos:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* ======== TABLA DE VIAJES ======== */
+    .table-container {
+      max-width: 1200px;
+      margin: 60px auto;
+      background-color: #ffffff;
+      border-radius: 25px;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      padding: 40px;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    .table th {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      font-size: 1.3rem;
+      padding: 20px;
+    }
+
+    .table td {
+      vertical-align: middle;
+      text-align: center;
+      font-size: 1.2rem;
+      padding: 18px;
+    }
+
+    .btn-viaje {
+      background-color: #198754;
+      border: none;
+      color: white;
+      font-size: 1.1rem;
+      padding: 12px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background-color 0.3s;}

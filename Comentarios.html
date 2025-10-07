@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - Agencia de Viajes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body class="Secundaria2">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">AGENCIA DE VIAJES 2025</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Entrada.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Destinos.html">DESTINOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Discografia.html">OFERTAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Comentarios.html">RESERVAS</a>
+                </li>
+    
+            </ul>
+        </div>
+</nav>   
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Reserva tu Viaje</h1>
+    <div class="text-center mb-3">
+        <img src="Imagenes/Logo.png" alt="Destino de viaje" class="form-image-small">
+    </div>
+    <form class="custom-form mx-auto p-4">
+        
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" id="name" class="form-control" placeholder="Ingresa tu nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="destino" class="form-label">Destino</label>
+            <input type="text" id="destino" class="form-control" placeholder="Ingresa tu destino" required>
+        </div>
+        <div class="mb-3">
+            <label for="fecha" class="form-label">Fecha del Viaje</label>
+            <input type="date" id="fecha" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Reservar</button>
+    </form>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
